@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "disneyapi-alkemy",
+  "private_key_id": "884cda8404dfaad7b26b7a51a50d728a0335aa35",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC2tcOl9l0etm89\nRxEjz4y4JzAhPEpbis4RouoDn3MDgxg1LHwoJIyvr9xJFsFFVKH0y28UnDB3I1uY\nVv9e6V+4OE1H/sWMOqs+7YZb/Ijc6qHWjCxcRh9wIrT2+9Cqojp9G9ubbJojzH6W\nF91G2LmlY8YbYoEg1TrZZ4JaCyRWx+YBIugDP4s5Uio2CJ9kolNIf3dmmCKc7dVC\n3YgBn2UQQI8TySzrMG+jIuSwFCCQQcf21oj0Sohdba8CW17vjC6E0I4nY+1mQxnL\ncpNjc8PdJa7I+KdbkPcphgdlaT2Gd/mzAKgV+C4eTq9mfY/bh6yRKoD6U8RPXCNg\nV2vP3rWDAgMBAAECggEAREBzBRCaaYop1MCy8OcrwHD3JDsy5a5c2y657z+FhdbX\nWKm0+YPpwAlYJz9mVEFQvLKv3ImZ+y9MnIRHIgvYs2boy4+q+P7DkJ7HFZ6o+6l0\nakJzocaaINf+NNMNeGhgo/Kfnxg7HktaMDRa9wenldZHH1y1MvAkayklAwDtgrLJ\nI+KWgb17+5AgVvdvGmNKMkal6EK+aXiH9/7yg9yalMRt1Das/chcC5v/hGFmqpsA\nYQ5YfKAXlV3DW1J6jQMBvxv0F1SCfmLk5BFJRLk0TxeH66L55V5acpVNfCUiFidX\nCVX1kf54JJAb3n56uiP39p1JNZ6n36l9Maj5LRzr/QKBgQDdQFUUR6ULg5gOy3Z/\nPEaAs6JFlui0QwcphPZgQYS5pymh7MXl3ywCzbLxwA1X4K36XiLSHYo8zz47kQ7X\n6WwImJjNUlSq+P0oSDjaSFKTzsoMjjwMnLBIjfPrImJW5ZGa2jHf0wdygk7UwMIA\nbA5vn58mf4ELDbFRXt/5e9MPTwKBgQDTZ9Wjth/LqbNPpxOfciIQKqUMuMBz+t6b\n96LggnxdEE+B7RTn2mwAlaEFkrHLkQ/74MYPc2ObwpTFQESzqMFqpjpS1AShxLxW\npuMFh6rEu+w/N32vY5zYUiJ83kNlj8BaP9AwkGeMM+oOtLQIxUJ+x3aZL3eSNmK/\ncXaUlDKJjQKBgES8/PHNBHjcTHykN8914Y2QwaSPKwL+JBaBKa5kDKFFTwjwr9co\nC9tfHu4+taaMtmCnqHfRF6am2HXXLl5kNd1B049OueFYdAZ00bz3ZThosZtPAVcF\nwzr3Z0WxLA5FSoRqr74TKSgpVeaBcISDDcUeOWrTiDrv6RwXtswi7UK/AoGBAM5P\nFeHneY4S9Ye1QGQpSO7H/zy0DDTjTV2eRNie3ukfYsgj63P858uGOpcqutIzpgqk\nKAWqETpPoUoCV0mRVfhTcrWkbUTFrxtNUF30MQY/cuWarNB+APHm7fs4GUPDDu/E\nONM8CaF8hF2Hoe6xOxxoYehKt4D8DFBSVWvYWJ19AoGBANwiRHu48TejMLCYoW4v\nkD5BODxhEN6qJ7B205LhWIa+IvFdVScO+UahQlmKf2fGr1IXUV7WLz6YJtLrFhnH\nuNGmDpnFEr67lrHMSEjMVZgmzbMEeOTMebU0VhqrZ3OTT2LPuABWyajGx/S9Yw6c\nZP2zW21OWqZ8Ky+UmF7vusYr\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-dtoi8@disneyapi-alkemy.iam.gserviceaccount.com",
+  "client_id": "110385156463249259071",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-dtoi8%40disneyapi-alkemy.iam.gserviceaccount.com"
+}
