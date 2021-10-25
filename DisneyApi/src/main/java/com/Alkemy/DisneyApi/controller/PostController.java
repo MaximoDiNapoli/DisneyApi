@@ -55,4 +55,14 @@ public class PostController {
         return new ResponseEntity(service.addPelicula(post), HttpStatus.OK);
     }
 
+    @PutMapping(value = "/{id}/updateMovie")
+    public ResponseEntity editMovie(@PathVariable(value = "id") String id, @RequestBody PostDTOPelicula post){
+        return new ResponseEntity(service.editMovie(id, post), HttpStatus.OK);
+    }
+
+    @DeleteMapping(value = "/{id}/deleteMovie")
+    public ResponseEntity deleteMovie(@PathVariable(value = "id") String id){
+        return new ResponseEntity(service.deleteMovie(id), HttpStatus.OK);
+    }
+
 }

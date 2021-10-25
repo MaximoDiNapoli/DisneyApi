@@ -171,13 +171,44 @@ public class PostManagmentServiceImpl implements PostManagmentService {
         }
     }
 
+    @Override
+    public Object editMovie(String id, PostDTOPelicula post) {
+        if (post.getCalificacion() > 5){
+            return Boolean.FALSE;
+        }
+        if (post.getCalificacion() < 1){
+            return Boolean.FALSE;
+        }
+        Map<String, Object> docData = new HashMap<>();
+        docData.put("imagen", post.getImagen());
+        docData.put("titulo", post.getTitulo());
+        docData.put("getFechaDeCreacion", post.getFechaDeCreacion());
+        docData.put("calificacion", post.getCalificacion());
+        docData.put("personajesAsociados", post.getPersonajesAsociados());
+        ApiFuture<WriteResult> writeResultApiFuture = getPeliculas().document(id).set(docData);
 
+        try {
+            if (null != writeResultApiFuture.get()){
+                return Boolean.TRUE;
+            }
+            return Boolean.FALSE;
+        } catch (Exception e) {
+            return Boolean.FALSE;
+        }
+    }
 
-
-
-
-
-
+    @Override
+    public Object deleteMovie(String id) {
+        ApiFuture<WriteResult> writeResultApiFuture = getPeliculas().document(id).delete();
+        try {
+            if (null != writeResultApiFuture.get()){
+                return Boolean.TRUE;
+            }
+            return Boolean.FALSE;
+        } catch (Exception e) {
+            return Boolean.FALSE;
+        }
+    }
 
 
     public CollectionReference getPersonajes() {

@@ -21,4 +21,8 @@ public interface PostManagmentService {
     Object listPelicula();
 
     Object addPelicula(PostDTOPelicula post);
+
+    Object editMovie(String id, PostDTOPelicula post);
+
+    Object deleteMovie(String id);
 }
