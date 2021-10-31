@@ -11,8 +11,17 @@ public class PostDTOPelicula {
     private String titulo;
     private Date fechaDeCreacion;
     private int calificacion;
-    private ArrayList<Integer> personajesAsociados;
+    private ArrayList<String> personajesAsociados;
+    private ArrayList<String> generosAsociados;
     private String id;
+
+    public ArrayList<String> getGenerosAsociados() {
+        return generosAsociados;
+    }
+
+    public void setGenerosAsociados(ArrayList<String> generosAsociados) {
+        this.generosAsociados = generosAsociados;
+    }
 
     public String getImagen() {
         return imagen;
@@ -46,11 +55,11 @@ public class PostDTOPelicula {
         this.calificacion = calificacion;
     }
 
-    public ArrayList<Integer> getPersonajesAsociados() {
+    public ArrayList<String> getPersonajesAsociados() {
         return personajesAsociados;
     }
 
-    public void setPersonajesAsociados(ArrayList<Integer> personajesAsociados) {
+    public void setPersonajesAsociados(ArrayList<String> personajesAsociados) {
         this.personajesAsociados = personajesAsociados;
     }
 
